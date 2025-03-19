@@ -1,0 +1,108 @@
+header {
+    background-color: #26292e;
+    color: #8f9093;
+    margin: 0;
+
+}
+header h1 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+header li {
+    list-style-type: none;
+    display: inline;
+}
+
+.row {
+    justify-content: space-between;
+}
+.one{
+    list-style: none;
+    list-style-image: url(../images/cloud.png);
+    
+}
+.two {
+    list-style: none;
+    list-style-image: url(../images/speech.png);
+}
+.three {
+    
+    list-style: none;
+    list-style-image: url(../images/star.png);
+}
+.computer {
+    margin-top:20px;
+}
+.colum img {
+    margin-bottom: 10px;
+}
+.pink {
+    background-color: #e7718b;
+    margin: 0;
+    padding: 20px;
+}
+.top {
+    width: 480px;
+
+}
+.inpink {
+    color: #ffffff;
+}
+
+
+@media (max-width:768px)  {
+    .pink {
+        flex-direction: column;
+        align-items: center
+    }
+    .pink img {
+          width: 200px;
+        }
+    .inpink {
+        margin-left: ;
+        text-align: center;
+    }
+    
+    .colum {
+        flex-direction: column;
+    
+    }
+    .colum img {
+        width: 175px;
+        height: 120px;
+    }
+    
+    
+}
+
+    
+button {
+    color: #ffffff;
+      background-image: linear-gradient(to bottom, #5b5b5b, #313030);
+      padding-left: 2px;
+      padding-right: 2px;
+      border-radius: 8%;
+      border-style: none;
+}
+article {
+    background-color: #f4f4f6;
+    border-bottom: solid 2px #e7718b;
+}
+footer {
+    background-color:#26292e;
+    color: #ffffff;
+}
+footer li {
+    list-style: none;
+    display: inline;
+}
+.copy {
+    padding-top: 17px;
+}
+.list {
+    padding-top: 15px;
+}
